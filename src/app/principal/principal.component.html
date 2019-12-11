@@ -1,0 +1,38 @@
+<nav class="navbar navbar-dark bg-dark">
+  <div>
+     <h5 class="navbar-brand mb-0 h1" id="school">School DIARY</h5>
+    <button type="button" id="butao1" class="btn" style="color: #fff">Início </button>
+    <button type="button" class="btn" style="color: #fff">Notificações </button>
+<button type="button"  id="CONFIG" class="btn" style="color: #fff">Configurações </button>
+<button type="button" id="sair" class="btn" style="color: #fff" (click)="logout()">Sair </button>
+
+
+  </div>
+</nav>
+<div class="conteiner">
+  <html>
+  <head>
+    <title>Awesome Search Box</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container h-100">
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="Pesquisar...">
+           <button class="btn btn-outline-white" style="#faf8f7"
+      (click)="addItem(todoText.value, todoPrioridade.value, todoDataLimite.value)">
+     User
+    </button>
+          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<br>
+</div>
+<div id="calendar"></div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
